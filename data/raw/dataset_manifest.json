@@ -1,0 +1,93 @@
+{
+  "dataset_name": "PhiUSIIL Phishing URL Dataset",
+  "uci_id": 967,
+  "license": "CC BY 4.0",
+  "official_source_url": "https://archive.ics.uci.edu/static/public/967/phiusiil+phishing+url+dataset.zip",
+  "official_landing_page": "https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset",
+  "download_timestamp_utc": "2026-11-17T18:37:34.289708+00:00",
+  "files": {
+    "archive": {
+      "filename": "phiusiil_phishing_url_dataset.zip",
+      "size_bytes": 15376007,
+      "sha256": "0a639fd03aea6308c5b1c10c92aa23c2ce1505447a9137271865cd0badc9a59a"
+    },
+    "extracted_csv": {
+      "filename": "PhiUSIIL_Phishing_URL_Dataset.csv",
+      "size_bytes": 56854345,
+      "sha256": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6"
+    }
+  },
+  "schema": {
+    "row_count": 235795,
+    "column_count": 56,
+    "columns": [
+      "FILENAME",
+      "URL",
+      "URLLength",
+      "Domain",
+      "DomainLength",
+      "IsDomainIP",
+      "TLD",
+      "URLSimilarityIndex",
+      "CharContinuationRate",
+      "TLDLegitimateProb",
+      "URLCharProb",
+      "TLDLength",
+      "NoOfSubDomain",
+      "HasObfuscation",
+      "NoOfObfuscatedChar",
+      "ObfuscationRatio",
+      "NoOfLettersInURL",
+      "LetterRatioInURL",
+      "NoOfDegitsInURL",
+      "DegitRatioInURL",
+      "NoOfEqualsInURL",
+      "NoOfQMarkInURL",
+      "NoOfAmpersandInURL",
+      "NoOfOtherSpecialCharsInURL",
+      "SpacialCharRatioInURL",
+      "IsHTTPS",
+      "LineOfCode",
+      "LargestLineLength",
+      "HasTitle",
+      "Title",
+      "DomainTitleMatchScore",
+      "URLTitleMatchScore",
+      "HasFavicon",
+      "Robots",
+      "IsResponsive",
+      "NoOfURLRedirect",
+      "NoOfSelfRedirect",
+      "HasDescription",
+      "NoOfPopup",
+      "NoOfiFrame",
+      "HasExternalFormSubmit",
+      "HasSocialNet",
+      "HasSubmitButton",
+      "HasHiddenFields",
+      "HasPasswordField",
+      "Bank",
+      "Pay",
+      "Crypto",
+      "HasCopyrightInfo",
+      "NoOfImage",
+      "NoOfCSS",
+      "NoOfJS",
+      "NoOfSelfRef",
+      "NoOfEmptyRef",
+      "NoOfExternalRef",
+      "label"
+    ],
+    "url_column": "URL",
+    "label_column": "label",
+    "null_url_count": 0,
+    "original_label_distribution": {
+      "1_legitimate": 134850,
+      "0_phishing": 100945
+    },
+    "original_label_semantics": {
+      "1": "legitimate",
+      "0": "phishing"
+    }
+  }
+}
